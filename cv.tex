@@ -1,0 +1,290 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                             Curriculum Vitae                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[10pt,a4]{article}
+\topmargin-2.0cm
+\advance\oddsidemargin-1.2cm
+\advance\evensidemargin-1.2cm
+\textheight9.22in
+\textwidth6.4in
+\newcommand\bb[1]{\mbox{\em #1}}
+%\def\baselinestretch{1.25}
+\def\baselinestretch{1.0}
+
+\usepackage{multicol}
+% The use of the times package forces the use of the type-1 times
+% roman font, but the times roman font does not look nice.
+% Besides the times roman font still does not print correctly on
+% the dopy printer.
+%\usepackage{times}
+
+\usepackage{fancyhdr}
+\usepackage{origpagecounting}
+\usepackage[dvips]{color}
+
+%\newcounter{myEnumCounter}
+%\newcounter{mySaveCounter}
+%\renewenvironment{enumerate}{%
+%  \begin{list}{\arabic{myEnumCounter}.}{\usecounter{myEnumCounter}%
+%  \setcounter{myEnumCounter}{\value{mySaveCounter}}}
+%  }{%
+%  \setcounter{mySaveCounter}{\value{myEnumCounter}}\end{list}%
+%}
+%\newcommand\myEnumReset{\setcounter{mySaveCounter}{0}}
+
+% The old enumerate environment is rewritten, so you need no special command to
+% start continuing counting. With the command \myEnumReset you can Reset the couter
+% at any place in the text.
+
+% http://www.educat.hu-berlin.de/~voss/lyx/list/enum.phtml
+
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+
+\begin{document}
+
+%\thispagestyle{empty}
+%\pagestyle{plain}
+
+\thispagestyle{fancy}
+%\pagenumbering{gobble}
+%\fancyhead[location]{text}
+% Leave Left and Right Header empty.
+\lhead{\textcolor{gray}{\it Limin Ma}}
+%\rhead{\textcolor{gray}{\thepage/\totalpages{}}}
+%\rhead{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\footnotesize \textcolor{gray}{}}
+%A copy of this curriculum vitae, publications and 
+%talk slides are available for download at
+%http://www.stanford.edu/$\sim$sundaes/application}}
+
+
+%\pagestyle{myheadings}
+%\markboth{Sundar Iyer}{Sundar Iyer}
+
+\vspace*{0.4cm}
+\begin{center}
+{\huge \bf Limin Ma}
+\vspace*{0.25cm}
+\end{center}
+
+\begin{small}
+
+%===================================
+\begin{tabbing}
+\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+\begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+
+Gender: Female& Phone: (814) 852-9588 \\
+Address: 1400 Martin Str. State College, PA-16803 &  Email: maliminpku@gmail.com\\
+  & Alt: lum777@psu.edu \\
+\end{tabular*}
+\end{tabbing}
+
+\vspace*{0.2cm}
+
+
+%==========================================
+%\vspace{0.20cm}
+
+\subsection*{PARTICULARS}
+
+%{\color{DarkSeaGreen}} \hrule
+\hrule
+\vspace{0.2cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{EDUCATION}
+%\vspace{0.2cm}
+
+%\begin{tabbing}
+%xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+%\>{\bf Academic record}\\[.7em]
+
+%\>\begin{tabular}{|l|l|l|}
+%\hline
+%Certificate	&	Place of study	&	Year\\
+%\hline
+%Ph. D. in Computer Sc.  & Stanford University     & {\it 2000-, Defended 2003} \\
+%\hline
+%M. S. in Computer Sc. & Stanford University     & {\it June 2000} \\
+%\hline
+%B. Tech in Computer Sc. and Engg. & I.I.T. Bombay  &	{\it April 1998} \\
+%\hline
+%\end{tabular}
+%\end{tabbing}
+
+%xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+
+\begin{tabbing}
+xxxx\=xxxxxxxx\=xxxxxxxx\=xxxxxxxx\=\kill
+%\>\begin{tabular*}{6.1in}{lr}
+
+\>\begin{tabular*}{0.9\linewidth}{l@{\extracolsep{\fill}}r}
+\bf{Pennsylvania State University}& State College, USA     \\
+Postdoc in Department of Mathematics  &  {\it Aug.2018 - present}\\
+Supervisor: Prof. Jinchao Xu & \\
+&\\
+
+\bf{Peking University} & Beijing, China \\
+Ph.D. in Department of Scientific and Engineering Computing & {\it Sep.2013 - Jul.2018}\\
+Supervisor: Prof. Jun Hu & \\
+&\\
+
+\bf{Wuhan University} & Hubei, China \\
+B.S. in Department of Computational Mathematics & {\it Sep.2009 - Jul.2013}
+\end{tabular*}
+\end{tabbing}
+
+\subsubsection*{RESEARCH INTERESTS}
+%\hrule
+%\vspace{0.2cm}
+
+\begin{list}{}{}
+\item My research interest  regards the approximation by finite elements of partial differential equations. In particular, I worked on the following areas: 
+\item \begin{itemize}
+\item Nonconforming finite element methods for eigenvalue problems
+\item Superconvergence of nonconforming elements and mixed elements
+\item Finite element methods for linear elasticity problems
+\end{itemize}
+\end{list}
+
+\subsubsection*{DISSERTATION}
+
+\begin{list}{}{}
+\item Title: "High accuracy methods for eigenvalue problems by nonconforming elements"  \\
+Advisor: Prof. Jun Hu
+\item My thesis concentrates on the analysis of high accuracy methods and proposes some algorithms to improve the accuracy of eigenvalues by finite element methods.  It includes:
+\begin{itemize}
+\item The first asymptotic expansions of eigenvalues by the nonconforming Crouzeix-Raviart element and the enriched Crouzeix-Raviart element 
+\item Design two types of asymptotically exact a posteriori error estimators
+\item Propose the penalized Crouzeix-Raviart element which aims to improve the accuracy of large amounts of eigenvalues
+\item Prove an optimal superconvergence result for two nonconforming elements
+\end{itemize}
+\end{list}
+
+ 
+\subsection*{PUBLICATIONS}
+\hrule
+\vspace{0.2cm} 
+\begin{enumerate}
+    	\item J. Hu and L. Ma., ``A Penalized Crouzeix--Raviart Element Method for Second Order Elliptic Eigenvalue Problems",  {\it Journal of Scientific Computing, 74(3):1457-1479}, 2018.
+	
+	\item J. Hu and L. Ma., ``Asymptotically Exact A Posteriori Error Estimates of Eigenvalues by the Crouzeix--Raviart Element and Enriched Crouzeix--Raviart Element",  {\it SIAM Journal on Scientific Computing, 42(2): A797--A821}, 2020.
+	
+	
+	\item J. Hu, L. Ma. and R. Ma, ``Optimal Superconvergence Analysis for the Crouzeix-Raviart and the Morley elements",  {\it arXiv:1808.09810v2}, submitted to {\it Advances in Computational Mathematics}, 2019.
+
+	\item J. Hu and L. Ma., ``Asymptotic Expansions of Eigenvalues by both the Crouzeix-Raviart and Enriched Crouzeix-Raviart elements",  {\it arXiv:1902.09524v2}, submitted to {\it Mathematics of Computation}, in revision, 2020.
+
+
+	\item Q. Hong, J. Hu, L. Ma and J. Xu. ``Extended Galerkin Method for Linear Elasticity with Strongly Symmetric Stress Tensor", {\it arXiv:2002.11664}, submitted to   {\it Numerische Mathematik}, 2020
+	
+	\item L. Ma. ``Superconvergence of Discontinuous Galerkin Methods for the Scaler Elliptic Problems and Linear Elasticity Problems", {\it arXiv:2010.10507}, submitted to  {\it Journal of Scientific Computing}, 2020
+	
+	\item Q. Hong, J. Hu, L. Ma and J. Xu. ``Extended Galerkin Method for Stokes Problems", in preparation.
+	
+	\item L. Ma. ``Asymptotic Expansions of Eigenvalues by the Morley Element for the Fourth Order Elliptic Problems", in preparation.
+	 
+    
+\end{enumerate}
+
+%\vspace{0.1cm}
+\subsection*{TEACHING EXPERIENCE}
+\hrule
+\vspace{0.2cm}
+
+\begin{itemize}
+
+\item {\bf Instructor.} MATH 230:  Calculus and Vector Analysis, Spring 2020, Pennsylvania State University. 
+
+\item {\bf Instructor.} MATH 251: Ordinary and Partial Differential Equations , Spring 2019, Pennsylvania State University.
+
+\item {\bf Teaching Assistant.} MATH 597(section 003): Special Topics, Prof. Jinchao Xu, Spring 2019, Pennsylvania State University.
+
+\item {\bf Teaching Assistant.} MATH 556: Finite Element Methods , Prof. Jinchao Xu, Fall 2018, Pennsylvania State University.
+
+\item {\bf Teaching Assistant.} An Introduction to Applied Mathematics,  Prof. Jun Hu, Fall 2016, Peking University  
+\end{itemize}
+\subsection*{ACADEMIC ACTIVITIES}
+\hrule
+\vspace{0.2cm}
+\begin{itemize}
+	\item Attend the 2019 AMS-JMM at Baltimore, January 16-19, 2019.
+	\item Attend the fall 2018 FE Circus at Delaware, November 9-10, 2018.
+	\item Co-organizer of 4th Graduate Forum on Numerical Methods for Partial Differential Equations, Peking University, China, July 2016.
+	\item Co-organizer of 2nd Beijing Graduate Forum on Computational Mathematics, Peking University, China, August 2015
+\end{itemize}
+ 
+\subsection*{ACADEMIC HONORS}
+\hrule
+\vspace{0.2cm}
+\begin{itemize}
+	\item Award for Scientific Research, Peking University, 2017.
+	\item Special Scholarship for Scientific Research , Peking University, 2017.
+\end{itemize}
+ 
+\subsection*{PRESENTATIONS}
+\hrule
+\vspace{0.2cm}
+
+\begin{enumerate}
+    \item 
+       {\it 15th Annual Meeting of China Society for Industrial and Applied Mathematics}, Qingdao, China, October 2017. 
+
+    \item  
+       {\it 11th National Conference on Computational Mathematics}, Xi'an, China, July 2017. 
+
+    \item 
+       {\it 9th National Conference on Finite Elements}, E'mei, China, August 2016. 
+
+    \item  
+       {\it 4th Graduate Forum on Numerical Methods for Partial Differential Equations}, Peking University, China, July 2016. 
+   
+\end{enumerate}
+ 
+ 
+
+%\newpage
+
+\vspace{0.1cm}
+%\begin{multicols}{2} [\subsection*{REFERENCES}]
+
+\subsection*{REFERENCES}
+\hrule
+\vspace{0.2cm}
+ 
+\begin{footnotesize}
+
+\begin{multicols}{2} 
+\noindent 
+Prof. \textbf{Jinchao Xu} (Postdoc Advisor) \\ 
+Dept. of Mathematics \& Penn State University\\
+University Park, PA 16802, USA\\
+xu@math.psu.edu \\
+www.math.psu.edu/xu\\
+
+\columnbreak
+
+\noindent
+Prof. \textbf{Jun Hu} (Ph.D. Thesis Advisor)\\ 
+School of Mathematical Sciences \& Peking University \\
+Beijing, 100871, China \\  
+hujun@math.psu.edu.cn \\
+
+
+\end{multicols}
+ %\begin{tabbing}
+%xxxx\=xxxxxxxxxxxxxxxxxxxxx\=xxxx\=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\=\kill
+%\>{Nick McKeown}\> :\>nickm@stanford.edu\\
+%\>{Balaji Prabhakar}\>:\>balaji@stanford.edu\\
+%\>{Ajit Shelat}\>:\>ajit\_shelat@pmc-sierra.com\\
+%\>{S.S.S.P. Rao}\>:\>ssspr@cse.iitb.ernet.in\\
+%\end{tabbing}
+%\newpage
+
+\end{footnotesize}
+\end{small}
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
