@@ -1,5 +1,5 @@
 
-\n 
+
 == Limin Ma's Homepage 
  
 ~~~
@@ -36,11 +36,10 @@ My research interest  regards the approximation by finite elements of partial di
 == Publications
 - J. Hu and *L. Ma*, A Penalized Crouzeix--Raviart Element Method for Second Order Elliptic Eigenvalue Problems, Journal of Scientific Computing, 74(3):1457-1479, 2018.
 - J. Hu and *L. Ma*, Asymptotically Exact A Posteriori Error Estimates of Eigenvalues by the Crouzeix--Raviart Element and Enriched Crouzeix--Raviart Element, SIAM Journal on Scientific Computing, 42(2): A797--A821, 2020.
-- J. Hu, *L. Ma* and R. Ma, Optimal Superconvergence Analysis for the Crouzeix-Raviart and the Morley elements,  [https://arxiv.org/abs/1808.09810], 2019.
-- J. Hu and *L. Ma*, Asymptotic Expansions of Eigenvalues by both the Crouzeix-Raviart and Enriched Crouzeix-Raviart elements, [https://arxiv.org/abs/1902.09524], 2020.
+- J. Hu and *L. Ma*, Asymptotic Expansions of Eigenvalues by both the Crouzeix-Raviart and Enriched Crouzeix-Raviart elements, Mathematics of Computation, accepted, 2021.
+- J. Hu, *L. Ma* and R. Ma, Optimal Superconvergence Analysis for the Crouzeix-Raviart and the Morley elements, Advances in Computational Mathematics, 2021.
+- *L. Ma*, Superconvergence of Discontinuous Galerkin Methods for the Scaler Elliptic Problems and Linear Elasticity Problems, Journal of Scientific Computing, accepted, 2021
 - Q. Hong, J. Hu, *L. Ma* and J. Xu, Extended Galerkin Method for Linear Elasticity with Strongly Symmetric Stress Tensor,  [https://arxiv.org/abs/2002.11664], 2020
-- *L. Ma*, Superconvergence of Discontinuous Galerkin Methods for the Scaler Elliptic Problems and Linear Elasticity Problems, [https://arxiv.org/abs/2010.10507], 2020
-
 
 
 == Teaching
@@ -49,7 +48,7 @@ Instructor at The Pennsylvania State University:
 - MATH 140: Calculus with Analytic Geometry I, Fall 2019, Pennsylvania State University.
 - MATH 251: Ordinary and Partial Differential Equations, Spring 2019, Pennsylvania State University.
 
-Teaching assistant at The Pennsylvania State University and Peking University for:
+Teaching assistant at The Pennsylvania State University and Peking University:
 - MATH & CSE 555: Optimization, Spring 2021, Pennsylvania State University.
 - MATH 597: Special Topics, Spring 2019, Pennsylvania State University.
 - MATH 556: Finite Element Methods, Fall 2018, Pennsylvania State University.
